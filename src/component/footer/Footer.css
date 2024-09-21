@@ -1,0 +1,23 @@
+.footer{
+    background-color: white;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    margin-top: 70px ;
+    text-align: left;
+}
+.footer h4{
+    color: #052125;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer ul{
+    padding: 0px !important;
+    list-style-type: none;
+}
+.footer ul li{
+    margin: 10px 0px;
+    color: white;
+}

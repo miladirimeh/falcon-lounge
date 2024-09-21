@@ -1,0 +1,452 @@
+.numbers{
+    background-color: #dda90d;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.numbers .row{
+    margin: 10px 0px;
+}
+.numbers img{
+    height: 4cm;
+    width: 6cm;
+}
+.numbers h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #052125;
+    font-family: "Abel", sans-serif;
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: #052125;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.pride , 
+.ingredients , .paralex {
+    background-color: #052125;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*margin-top: 60px;*/
+    margin-top: 5px;
+}
+.pride img {
+    width: 7cm;
+    height: 8cm;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.pride h1 , 
+.ingredients h1,
+.paralex h1{
+    font-size: 30px;
+    width: 100%;/*pour rentrer à la ligne*/
+    font-weight: bold;
+    margin: 17px 0px;
+    color:#dda90d;
+    font-family: "Abel", sans-serif;
+    line-height: 45px; /*espace entre les lignes*/
+    margin-top: 30px
+}
+.pride .para{
+    width: 32cm;
+    padding-left: 1cm;
+    margin-left: 1cm;
+}
+.pride p , 
+.ingredients p,
+.paralex p{
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    font-family: "Abel", sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+.pride button , 
+.ingredients button{
+    background-color:#dda90d;
+    border: 1px solid  #dda90d;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: .2s ease;
+
+
+}
+
+.pride button a,
+.ingredients button a{
+    display: block;/*pour prendre misehet 140px*/
+    color: black;
+    font-family: "Abel", sans-serif;
+    text-decoration: none !important;/*pour supprimer la ligne sous l'ecriture*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.pride button:hover a,
+.ingredients button:hover a{ /*pou faire l'effet du button*/
+  color:  #dda90d;
+
+}
+.pride button:hover,
+.ingredients button:hover { /*pou faire l'effet du button*/
+ background-color: #fff;
+}
+/*.ingredients .carousel {
+    width: 15cm;
+    height: 9cm;
+    margin-top: 70px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 3cm;
+}*/
+
+.ingredients img{
+    width: 5cm;
+    height: 9cm;
+    margin-top: 70px;
+    max-width: 100%;
+    max-height: 100%;
+}
+  
+.ingredients{
+    height: 19cm;
+}
+.ingredients .carousel .thumb{
+    height: 3cm;
+    cursor: pointer;
+   
+   
+}
+.ingredients .carousel .thumb img{
+    margin: 0 5px;
+height: 3cm;
+
+
+}
+.ingredients .carousel button{
+    height: 80px;
+    width: 80px;
+    outline: #dda90d;
+    color: #dda90d;
+    background-color: #dda90d;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 4px solid #dda90d;
+    margin-left: 3cm;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+}
+/* .ingredients ul{
+    padding: 0px;
+}*/
+/* .ingredients ul li {
+    list-style-type: square;
+    font-family: "Abel", sans-serif;
+    color: white;
+    margin-top: 10px;
+} */
+
+
+.paralex{
+    height: 23cm;
+}
+.paralex .map{
+    text-align: center;
+padding-right: 1cm;
+margin-top: 2cm;
+}
+.paralex .map i{
+margin-right: 10px;}
+.paralex .map p{
+    text-align: center;
+    line-height: 32px;
+
+}
+.paralex img{
+    
+        width: 13cm;
+        height: 11cm;
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 2cm;
+
+}
+
+.paralex .carousel .thumb{
+    height: 3cm;
+    cursor: pointer;
+   
+   
+}
+.paralex .carousel .thumb img{
+    margin: 0 5px;
+height: 3cm;
+
+
+}
+.paralex h1{
+   text-align: center;
+   width: 100%;
+}
+.paralex p{
+    text-align: center;
+    line-height: 32px;
+ }
+ .paralex .social{
+    padding-left: 4.5cm;
+ }
+ .paralex a{
+padding-left: 1cm;
+color: #dda90d;
+font-size: 20px;
+font-family: "Abel", sans-serif;
+text-decoration: none !important;
+}
+.paralex .carousel {
+    width: 15cm;
+}
+.paralex .carousel button{
+    height: 80px;
+    width: 80px;
+    outline: #dda90d;
+    color: #dda90d;
+    background-color: #dda90d;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 4px solid #dda90d;
+    margin-right: 2cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+}
+/*.paralex{
+    background-color: #052125;
+    width: auto;
+    height: 400px;
+    padding: 30px 0px;
+    text-align: center;
+}
+.paralex h1{
+    width: auto;
+    margin-top: 10px;
+}
+
+.paralex a{
+    color: #dda90d;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: 'Tajawal';
+}
+ .paralex img{
+padding-left: 25cm;
+height: 7cm;
+margin-bottom: 20cm;
+}*/
+.blogs .row{
+    padding-left: 3cm;
+    width: 20cm;
+}
+.blogs .carousel{
+    width: 20cm;
+    height: 12cm;
+    
+}
+.blogs img{
+    width:20cm;
+    height: 12.5cm;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blogs{
+    margin-top: 5px;
+    padding-top: 25px ;
+    overflow: hidden;
+    width: 100%;
+    height: 24cm;
+    background-color: #052125;
+    padding-left: 5cm;
+}
+
+.blogs .carousel .thumb img{
+    height: 3cm;
+}
+.blogs .carousel .thumbs{
+    margin-right: 2cm;
+}
+
+.blogs .carousel button {
+    height: 100px;
+    width: 100px;
+    outline: #dda90d;
+    color: #dda90d;
+    background-color: #dda90d;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 4px solid #dda90d;
+    margin-left: 3cm;
+    margin-top: -2.5cm;
+}
+
+.blogs .row:first-child{
+    text-align: center;
+}
+.blogs .carousel .thumbs-wrapper{
+    width: 15cm;
+}
+.blogs h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px; 
+    margin-bottom: 15px;
+   color:#dda90d;
+    font-family: "Abel", sans-serif;
+    line-height: 50px; /*espace entre les lignes*/
+    margin-left: 1cm;
+}.blogs p {
+    font-size: 16px;
+   /* line-height: 28px;*/
+    color: white;
+    font-family: "Abel", sans-serif;
+}
+/*.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #052125;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}*/
+/* .blogs .box img{
+    max-width: 100%;
+    height: 6cm;
+    width: 8cm; 
+}*/
+.blogs .box h5{
+    color: #dda90d;
+    font-family: "Abel", sans-serif;
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.blogs .box h6{
+    color: white;
+    font-size: 22px;
+    font-family: "Abel", sans-serif;
+}
+.blogs .box span{
+  /*  display: block;*/
+    color: black;
+    font-family: "Abel", sans-serif;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #dda90d;
+}
+
+/*.blogs button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color:#dda90d;
+    border: 1px solid  #dda90d;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .3s ease-in-out;
+}*/
+.blogs button a{
+color: black;
+text-transform: uppercase;
+font-family: "Abel", sans-serif;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none !important;
+letter-spacing: 1px;
+}
+.blogs button:hover{
+background-color: transparent;
+}
+.blogs button:hover a{
+color: #dda90d;
+}
+.sliderx {
+    background-color: #dda90d;
+    border: 1px solid #dda90d; 
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+.sliderx .carousel{
+    background-color: white;
+    margin: 40px 0px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+.sliderx img{
+ border-radius: 50%;
+ width: 110px;
+ height: 125px;
+ margin: 20px 0px;
+ margin-bottom: 130px;
+}
+.sliderx .carousel-caption{
+  margin: 30px 0px;
+}
+.sliderx .carousel-caption h3{
+  color:#dda90d;
+  display: block;
+padding-top: 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.sliderx .carousel-caption p{
+    color: black;
+  font-size: 17px;
+  line-height: 30px;
+
+}
+.sliderx .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    
+}
+.sliderx .carousel-indicators button {
+    width: 30px;
+    height: 10px;
+    background-color: #052125;
+    border: 1px solid #052125;
+    margin: 5px 5px 15px 5px;
+}
