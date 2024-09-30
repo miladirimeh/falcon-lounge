@@ -1,3 +1,162 @@
+@media (max-width: 1231px){
+    .blogs{
+        padding-left: 0cm;
+    }
+    .blogs .row{
+        padding-left: 0cm;
+
+    }
+    .blogs .carousel .thumbs{
+        margin-right: 0cm;
+    }
+    .blogs .row:first-child{
+        text-align: right;
+    }
+    .numbers img{
+        padding-top: 0.5cm;
+        
+    }
+   
+    .pride .pride-img {
+        width: 5cm;
+        height: 7cm;
+        margin-bottom: -10px;
+        margin-left: 2cm;
+    }
+    .pride .container .row h1 {
+        font-size: 21px;
+    }
+        .pride .container .row p {
+        font-size: 18px;
+        text-align: left;
+        }
+        .pride .para p{
+            text-align: left;
+            margin-left: -1.5cm;
+            width: 9.5cm;
+            max-width: 100%;
+            font-size: 18px;
+            line-height: 28px;
+            color: white;
+            font-family: "Abel", sans-serif;
+        }
+        .ingredients .container .row h1{
+            font-size: 21px;
+            margin-top: -1cm;
+        }
+        .ingredients .container .row p{
+            text-align: left;
+            
+            width: 9.5cm;
+            max-width: 100%;
+            font-size: 18px;
+            line-height: 28px;
+            color: white;
+            font-family: "Abel", sans-serif;
+        }
+        
+        .ing-clas .ingredients .container .row .carousel button {
+            height: 80px;
+            width: 80px;
+          
+            background-color: #dda90d;
+            background-size: 100%, 100%;
+            border-radius: 50%;
+            border: 4px solid #dda90d;
+            margin-right: 1cm;
+            margin-left: 1cm;
+            margin-top: 1cm;
+           
+        }
+      
+        .ing-clas .ingredients .container .row .carousel .thumb img{
+            height: 4cm;
+            max-height: 100%;
+        }
+        .ing-clas .ingredients .container .row .carousel .thumbs{
+            margin-right: 2cm;
+
+        }
+        .ing-clas .ingredients .container .row .carousel .slider-wrapper{
+            height: 35cm;
+            max-height: 100%;
+            margin-bottom: 2cm;
+        }
+        .ing-clas .ingredients{
+            height: 50cm;
+        }
+        .ing-clas{
+            height: 3cm;
+        }
+        .blog-clas{
+     margin-top: 17.5cm;
+     margin-left: -8cm;
+    
+        }
+        .blog-clas .blogs .container .row{
+            margin-top: 2cm;
+            margin-left: -5cm;
+            width: 10cm;
+        }
+        .blog-clas .blogs .container .row img{
+            width:10cm;
+            height: 12cm;
+            margin-bottom: -1cm;
+            margin-top: 2cm;
+        }
+        .blog-clas .blogs .container .row .carousel .thumb img{
+            height: 4cm;
+            
+        }
+        .blog-clas .blogs .container .row .carousel .thumbs{
+            margin-right: 2cm;
+            
+        }
+        .blog-clas .blogs .container .row .carousel button {
+           
+            height: 80px;
+            width: 80px;
+            margin-right: 6cm;
+            margin-left: 6cm;
+            margin-top: 5px;
+           
+        }
+       
+        .paralex .container .row h1{
+            text-align: center;
+            width: 100%;
+            font-size: 21px;
+            margin-top: -0.5cm;
+         }
+         .paralex .container .row  .h-paralex{
+            text-align: center;
+            width: 100%;
+            font-size: 21px;
+            margin-top: 2cm;
+         }
+         .paralex{
+            height: 60cm;
+        }
+        .paralex .container .row .social{
+            padding-left: 2.5cm;
+         }
+         .paralex .container .row .carousel button{
+            
+          
+            margin-right: 7cm;
+            margin-left: 2cm;
+           
+        }
+        .paralex .container .row .map p{
+            margin-left: 5px;
+        }
+        .paralex .map-clas img{
+            margin-left: 0.5cm;
+            width: 9cm;
+            height: 9cm;
+        }
+        
+    }
 .numbers{
     background-color: #dda90d;
     padding: 25px 0px;
@@ -21,6 +180,7 @@
     color: #052125;
     font-family: "Abel", sans-serif;
 }
+
 .numbers h6{
     text-transform: uppercase;
     color: #052125;
@@ -164,9 +324,7 @@ height: 3cm;
 } */
 
 
-.paralex{
-    height: 23cm;
-}
+
 .paralex .map{
     text-align: center;
 padding-right: 1cm;
@@ -177,7 +335,12 @@ margin-right: 10px;}
 .paralex .map p{
     text-align: center;
     line-height: 32px;
-
+    margin-bottom: 1cm;
+}
+.paralex .image-map{
+margin-left: 8cm;
+width: 15cm;
+margin-top: 0px;
 }
 .paralex img{
     
@@ -259,6 +422,7 @@ padding-left: 25cm;
 height: 7cm;
 margin-bottom: 20cm;
 }*/
+
 .blogs .row{
     padding-left: 3cm;
     width: 20cm;

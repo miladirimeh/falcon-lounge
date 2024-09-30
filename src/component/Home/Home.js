@@ -151,10 +151,10 @@ const Home = () => {
        <section className='pride'>
         <div className='container'>
             <div className='row'>
-                <div className='col-md-6'>
+                <div >
             
-                <img src={img5} title='img5'/>
-                <img src={paralex} alt='paralex'/>
+                <img className='pride-img' src={img5} title='img5'/>
+                <img className='pride-img' src={paralex} alt='paralex'/>
 
 
                 
@@ -165,10 +165,10 @@ const Home = () => {
                 
                     <p>    pour les connaisseurs du restaurant
 
-Bienvenue dans la maison numérique du Falcon Lounge Café, le meilleur café de «  Perinthalmanna » , où nous vous invitons à embarquer pour un voyage à travers la riche tapisserie de saveurs, d'arômes et d'expériences qui définissent notre établissement chaleureux. Niché au cœur de Perinthalmanna, le Liem Café n'est pas seulement un autre café - c'est un sanctuaire pour ceux qui apprécient les bonnes choses de la vie, où chaque tasse raconte une histoire et chaque </p>  </div>
+Bienvenue dans la maison numérique du Falcon Lounge Café, le meilleur café de «  Perinthalmanna » , où nous vous invitons à embarquer pour un voyage à travers la riche tapisserie de saveurs, d'arômes et d'expériences qui définissent notre établissement chaleureux. Niché au cœur de Perinthalmanna, le Liem Café n'est pas seulement un autre café - c'est un sanctuaire pour ceux qui apprécient les bonnes choses de la vie, où chaque tasse raconte une histoire et chaque instant est savouré.</p>  </div>
             </div>
         </div>
-<div className='para'> <p> instant est savouré.
+<div className='para'> <p> 
 
 Notre blog a pour objectif de vous offrir un aperçu des coulisses de ce qui fait du Falcon Lounge une destination appréciée des amateurs des gourmands. Vous y découvrirez des témoignages de première main sur notre passion pour la préparation des plats délicieux, des informations sur nos ingrédients d'origine locale et un aperçu du processus créatif derrière nos délicieuses pâtisseries et plats.
 
@@ -182,10 +182,14 @@ Rendez-vous au restaurant the falcon lounge pour un voyage gustatives aussi save
                     </div>
              
        </section>
+       <div className='ing-clas'>
        <section className='ingredients'>
+      
        <div className='container' id='service'>
+      
         <div className='row'>
-            <div className='col-md-5'>
+          
+            <div className='col-md-5'> 
                <br/> <h1>Nous préparons tout à la main avec les meilleurs ingrédients possibles. </h1>
                 <p>The Falcon Lounge vous propose des produits frais de saison, dans un cadre sobre et élégant situé en plein coeur de la nature.
 Le chef & son équipe vous proposent des plats authentique de tradition et des spécialités émerveilleront vos papilles. 
@@ -195,9 +199,10 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
                     <a href='#'> Learn more</a>
     </button> */}
             </div>
+            
         <div className='col-md-7'>
-         
         < Carousel autoPlay interval={1000} infiniteLoop thumbWidth={140} >
+     
         < img   src = {ingredients} /> 
             < img    src = {ingredients2}  /> 
             < img    src = {ingredients6}  /> 
@@ -212,9 +217,9 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
                < img      src = {emp3}  /> 
                < img    src = {ingredients11}  /> 
                < img    src = {ingredients12}  /> 
-
+              
              
-        </Carousel>
+        </Carousel> 
   {/* < Carousel.Item > 
     < img   src = {ingredients} /> 
     < Carousel.Caption > 
@@ -256,16 +261,14 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
 
        </div>
        </section>
-      
-       <section className='blogs'>
+       </div>     
+       <div className='blog-clas'>
+       <section className='blogs' >
        <div className='container' id='explore-food'>
-        <div className='row'>
-            <div className='col-md-13 col-lg-13'>
-            <h1> Explore Our Foods </h1>
-                
-                       
-        < Carousel autoPlay interval={1000} infiniteLoop thumbWidth={140}  >
-       
+       <div className='row'>
+        <div >
+        < Carousel autoPlay interval={1000} infiniteLoop thumbWidth={140} >
+         
             < img    src = {blog1}  /> 
                < img      src = {blog2}  /> 
                < img      src = {blog3}  /> 
@@ -332,10 +335,9 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
                < img      src = {blog118}  /> 
 
 
-
  
       
-        </Carousel></div>
+        </Carousel>
                {/* < Carousel > 
   < Carousel.Item > 
     < img   src = {blog1} /> 
@@ -422,19 +424,23 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
 </ Carousel.Caption > 
   </ Carousel.Item >
 </ Carousel >  */}
-</div>
+
        {/* <div className='row'>
          {blogitem}
 </div> */}
        </div>
-       </section>
+       </div>
+</div>
+       </section></div>
+       
        <section className='paralex' >
        <div className='container' id='emplacement'>
-       <div className='row'>
-        <div className='col-md-6'>
-               
-        < Carousel autoPlay interval={1000} infiniteLoop thumbWidth={140} >
        
+       <div className='row'>
+       
+        <div className='col-md-6'>
+        < Carousel autoPlay interval={1000} infiniteLoop thumbWidth={140} >
+        
                < img      src = {emp30}  /> 
                < img      src = {emp1}  /> 
                < img      src = {emp42}  /> 
@@ -531,11 +537,12 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
 
 </ Carousel.Item > 
 </ Carousel > ; */}
+        
         </div>
         <div className='col-md-6'>
-         <h1> Emplacement Confort, Classique 
+       <h1 className='h-paralex'> Emplacement Confort, Classique 
          </h1><br/> 
-         <h1>Contact</h1>
+         <h1 >Contact</h1>
     
 
          <p>Si vous souhaitez nous contacter concernant des questions spécifiques, n'hésitez pas à nous écrire un e-mail, à nous contacter sur Instagram, sur facebook ou à nous appeler. </p>
@@ -547,21 +554,19 @@ Le chef & son équipe vous proposent des plats authentique de tradition et des s
  
    </div>
    <div className='map'> <h1>       <a   href='https://www.google.com/maps/search/restaurent+ras+adar/@37.0553397,11.0243736,16.75z/data=!4m14!1m10!4m9!1m4!2m2!1d10.2268928!2d36.8246784!4e1!1m3!2m2!1d11.0272315!2d37.056435!2m2!3m1!5e2?entry=ttu'> <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        Route du Sémaphore El Haouaria Tunis Tunisie , El Haouaria, Tunisie </a>
+        Route du Sémaphore El Haouaria , Tunisie </a>
 
        </h1><p>Ce restaurant est situé sur la route de la montagne d'El Haouaria après l'hôpital local, loin du bruit dans l'air frais, on a notamment les délicieux plats de poisson et de fruits de mer 🦐🍤🦪🦞    .</p></div>
-   
+       </div>
+</div>
 </div>
        
        
-       </div>
        
-
-    {/*   < img    src = {maps}  /> 
-       < img    src = {maps2}  /> */} 
-       </div>
-       
-</section> 
+<div className='map-clas'>
+     < img  className='image-map'  src = {maps}  /> 
+     </div>     
+</section>   
        <section className='sliderx'>
         <div className='container'>
             <div className='row'>

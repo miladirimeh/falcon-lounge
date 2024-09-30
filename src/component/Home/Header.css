@@ -59,4 +59,18 @@ height: 13cm;
 margin-top: 40px;   
 
 }
+@media (max-width: 1231px){
+    header h2{
+        font-size: 21px;
+    }
+    header p{
+        font-size: 18px;
+    }
+    header img {
+        width: 10cm;
+        height: 7cm; 
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
 
